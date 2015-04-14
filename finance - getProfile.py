@@ -54,7 +54,7 @@ def get_all_data(search_name):
             f.write('Total Assets\n')
             f.write(data_TA[i+1].get_text().strip().encode('utf-8')+'\n')
 if __name__ == "__main__":
-    for i in range (1000):
-        search_name=raw_input('type Ticker\n').upper()
-        f=file('%s.txt'%(search_name),'w')
-        get_all_data(search_name)
+    search_name=raw_input('type Ticker\n').upper()
+    f=file('%s.txt'%(search_name),'w')
+    get_all_data(search_name)
+    f.close()
