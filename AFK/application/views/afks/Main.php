@@ -9,11 +9,10 @@ if ( 0 == $isLogined)
 		echo '</div></ul>';
 	}
 	else {
-		echo '<p> <a href="../afks/index"> Home </a> / <a href="../users/A"> A</a> / <a href="../users/B"> B</a> / <a href="../users/C"> C</a> / <a href="../users/D"> D</a> / <a href="../users/E"> E</a> / <a href="../users/F"> F</a>';
+		echo '<p> <a href="../users/usershome"> Home </a> / <a href="../users/A"> A</a> / <a href="../users/B"> B</a> / <a href="../users/C"> C</a> / <a href="../users/D"> D</a> / <a href="../users/E"> E</a> / <a href="../users/F"> F</a>';
 		echo '<h3> Login sucessfully!<br>';
 		echo ' O(∩_∩)O Enjoying~~ </h3>';
 		 
-		//$isLogined ==1;
 	/*
 		echo '<div class="box">';
 		echo '<ul id="Menu">';

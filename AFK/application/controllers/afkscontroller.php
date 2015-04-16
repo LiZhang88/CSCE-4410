@@ -5,6 +5,7 @@
 class AfksController extends Controller {
 
 	function index() {
+		session_start();
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');			
 	}
@@ -63,16 +64,19 @@ class AfksController extends Controller {
 	// Vister Pages
 	
 	function A(){
+		session_start();
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}
 		
 	function B(){
+		session_start();
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}
 	
 	function C(){
+		session_start();
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}

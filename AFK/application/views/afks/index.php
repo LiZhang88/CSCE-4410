@@ -1,9 +1,5 @@
 <?php
 /* Home page */
-//	session_start();
-	
-//	$_SESSION["isLogined"] = 0;
-
 
  // Navigation Bar
 		echo '<p> <a href="../afks/index"> Home </a> / <a href="../afks/A"> A</a> / <a href="../afks/B"> B</a> / <a href="../afks/C"> C</a>';

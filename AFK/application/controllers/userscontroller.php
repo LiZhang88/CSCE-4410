@@ -24,7 +24,7 @@ class UsersController extends Controller {
 	  		if(count($loginInfo) > 0)
 	  		{
 	  			$this->set('isLogined',1);
-				
+				$_SESSION['isLogined']=1;
 			  	foreach ($loginInfo as $loginInfoItem)
 				{
 					$_SESSION['username'] = $loginInfoItem['User']['username'];
@@ -146,32 +146,48 @@ class UsersController extends Controller {
 	}
 
 	// user pages
+	function usershome(){
+		session_start();
+		$this->set('title','Welcome to AFK!');
+		$this->set('cssfile','Main.css');
+	}	
+	
 	function A(){
+		session_start();
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}
 		
 	function B(){
+		session_start();
+
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}
 	
 	function C(){
+		session_start();
+
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}
 	
 	function D(){
+		session_start();
+
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}
 		
 	function E(){
+		session_start();
+
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}
 	
 	function F(){
+		session_start();
 		$this->set('title','Welcome to AFK!');
 		$this->set('cssfile','Main.css');
 	}
