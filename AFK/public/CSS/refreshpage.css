@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {font:12px arial,helvetica,clean,sans-serif; margin:0px auto; position:relative; text-align:center;}
+body {color:#FF9999;font:12px arial,helvetica,clean,sans-serif; margin:0px auto; position:relative; text-align:center;}
 ol,ul {list-style:none;}
 a img{ border: none; }
 
@@ -111,3 +111,9 @@ ul#Notice{float:right; width:300px; padding:0px 0px 5px 0px; margin:0px; border:
 #Top{_height:125px;}
 #Main p:first-letter {_line-height:100%;}
 #Contact{_width:870px;}
+
+#load img {
+    width:350px;
+    float:middle;
+    padding:10px;
+}

@@ -7,19 +7,19 @@ class AfksController extends Controller {
 	function index() {
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');			
+		$this->set('cssfile','visitor.css');			
 	}
 
 	function logpage() {
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','visitor.css');
 		$this->set('todo',$this->Afk->query('SELECT * FROM terms WHERE PAGENAME = "logpage"'));
 	}
 	
 	function Main(){
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','refreshpage.css');
 		$this->set('todo',$this->Afk->query('SELECT * FROM terms WHERE PAGENAME = "login"'));
 		
 		if (isset($_SESSION['username'])){
@@ -66,19 +66,19 @@ class AfksController extends Controller {
 	function A(){
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','visitor.css');
 	}
 		
 	function B(){
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','visitor.css');
 	}
 	
 	function C(){
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','visitor.css');
 	}
 	
 }

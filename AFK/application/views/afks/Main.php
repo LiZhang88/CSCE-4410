@@ -1,4 +1,42 @@
+<script language=JavaScript>
+<!--
+function startTimer(duration, display) {
+    var start = Date.now(),
+        diff,
+        minutes,
+        seconds;
+    function timer() {
+        diff = duration - (((Date.now() - start) / 1000) | 0);
+
+        minutes = (diff / 60) | 0;
+        seconds = (diff % 60) | 0;
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = seconds; 
+
+        if (diff <= 0) {
+           // starts at the full duration
+            start = Date.now() + 1000;
+        }
+    };
+    timer();
+    setInterval(timer, 1000);
+}
+
+window.onload = function () {
+    var loadingtime = 10 * 1,
+        display = document.querySelector('#time');
+		startTimer(loadingtime, display);
+};
+
+-->
+</script>
+
+
 <?php
+
 if ( 0 == $isLogined)
 	{
 		echo '<div class="box">';
@@ -9,18 +47,23 @@ if ( 0 == $isLogined)
 		echo '</div></ul>';
 	}
 	else {
-		echo '<p> <a href="../users/usershome"> Home </a> / <a href="../users/A"> A</a> / <a href="../users/B"> B</a> / <a href="../users/C"> C</a> / <a href="../users/D"> D</a> / <a href="../users/E"> E</a> / <a href="../users/F"> F</a>';
-		echo '<h3> Login sucessfully!<br>';
-		echo ' O(∩_∩)O Enjoying~~ </h3>';
-		 
-	/*
-		echo '<div class="box">';
-		echo '<ul id="Menu">';
-		
-		echo  '<table width="100%"><tr><th>';
+		$url = "http://localhost/afk/users/usershome"; 
+	}	
+?>   
 
-
-		echo '</div>';	
-	*/	
-	}
-?>
+<!-- Refresh to new page / Go to URL in 10 second (counting down)-->
+<html>     
+<head>     
+<meta http-equiv="refresh" content="10;url=<?php echo $url; ?>">     
+</head>     
+<body>
+<h1>Login sucessfully! </h1>
+<div id="load">
+<img src='http://i.zeze.com/attachment/forum/201503/13/204338nwojz6flvyptlmqz.gif'/>
+</div> 
+<h1>Loading ...... </h1>  
+<div>Time Left: 
+<span id="time"></span> 
+seconds!</div>
+</body>  
+</html>	

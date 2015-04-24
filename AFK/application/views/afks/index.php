@@ -1,10 +1,48 @@
 <?php
 /* Home page */
-
  // Navigation Bar
-		echo '<p> <a href="../afks/index"> Home </a> / <a href="../afks/A"> A</a> / <a href="../afks/B"> B</a> / <a href="../afks/C"> C</a>';
-	
-		echo "<h1>This is Home Page! </h1>";
+?>
+ 
+<html>
+  <head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <title>Visitor Menu</title>
+</head>
+<body>
+
+<div id='Vmenu'>
+<ul>
+   <li><a href='../afks/index'>Home</a></li>
+   <li class='active has-sub'><a href='../afks/A'>Individual task description</a>
+      <ul>
+         <li class='has-sub'><a href='#'>Jinqqi Hu </a>
+            <ul>
+               <li><a href='#'>ReadMe</a></li>
+               <li><a href='#'>Complete tasks</a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'>Zhang Li </a>
+            <ul>
+               <li><a href='#'>ReadMe</a></li>
+               <li><a href='#'>Complete tasks</a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='../afks/B'>About</a></li>
+</ul>
+</div>
+    
+  </body>
+</html>
+
+<?php		
+		echo "<h1>Home Page! </h1>";
 		
-		echo "<img src='http://images6.fanpop.com/image/photos/34200000/Luffy-one-piece-34268926-1920-1080.jpg'/>";	
+		echo "<img src='http://www.hdwallshub.com/files/submissions/One_piece_ace_hd_wallpaper_1891642713.jpg'/>";	
 ?>

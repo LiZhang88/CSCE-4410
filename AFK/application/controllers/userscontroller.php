@@ -149,47 +149,47 @@ class UsersController extends Controller {
 	function usershome(){
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','user.css');
 	}	
 	
 	function A(){
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','user.css');
 	}
 		
 	function B(){
 		session_start();
 
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','user.css');
 	}
 	
 	function C(){
 		session_start();
 
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','user.css');
 	}
 	
 	function D(){
 		session_start();
 
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','user.css');
 	}
 		
 	function E(){
 		session_start();
 
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','user.css');
 	}
 	
 	function F(){
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','user.css');
 	}
 	
 	

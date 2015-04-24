@@ -53,7 +53,7 @@ function test_repassword(){
 		echo '<form name="form1" action = "../users/updatepassword" method = "POST" onsubmit="return validate_form();" >';
 		echo '<div class="box">';
 		echo '<ul id="Menu">';
-		echo '<h2>MYHeMT Reset Password</h2>';
+		echo '<h2> Reset Password</h2>';
 		echo '<table style="width:60%">';
 		echo '<input name="USERS" type="hidden" value="'.$username.'">';
 		echo '<tr><th style="text-align:right">New Password:</th><td><input type="password" name="PASSWORD" onblur="test_password()"/><span id="error_password"></span></td></tr>';
