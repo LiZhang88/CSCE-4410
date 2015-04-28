@@ -25,8 +25,8 @@ if (isset($_SESSION["isLogined"])) {
   // User login 
 	echo '<p>  <a href="../users/logpage">Log in</a> ';
 	echo '</div>';
-	
   }
+  
     // user
   else { 
 	echo '<body>';

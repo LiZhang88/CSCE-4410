@@ -3,8 +3,7 @@
 // Database used
 
 class UsersController extends Controller {
-
-			
+		
 	function login() {
 		session_start();
 		$this->set('title','Welcome to AFK!');
@@ -67,20 +66,19 @@ class UsersController extends Controller {
 	function regcheck() {
 		session_start();
 		$this->set('title','Welcome to AFK!');
-		$this->set('cssfile','Main.css');
+		$this->set('cssfile','Register.css');
 		$VCODE = $_POST['VCODE'];
 		if( $VCODE != $_SESSION['check']){
-			$this->set('todo','Verification Code was wrong!');
+			$this->set('todo',' （～￣▽￣～） <br/> Verification Code was wrong! <br/> Please try again~');
 			return;
 		}
 		$USERS = $_POST['USERS'];  
 		$loginInfo = $this->User->query("SELECT username FROM users WHERE username = '".$USERS."'");
 		if(count($loginInfo) > 0)
 		{
-			$this->set('todo','The username has been registered!');
+			$this->set('todo','（╯‵□′）╯︵┴─┴  <br/> The username has been registered! <br/> Please try another username~ ');
 			return;
 		}
-		
 		
 	  	$PASSWORD = $_POST['PASSWORD'];
 	  	$SECUREQUESTION = $_POST['SECUREQUESTION'];
@@ -89,8 +87,10 @@ class UsersController extends Controller {
 	  		values(\''.$USERS.'\',\''.$PASSWORD.'\',\''.$SECUREQUESTION.'\',\''.$SECUREANSWER.'\',1,'.date("Ymd").')';
 	  	$this->User->query($strSQL);
 	  	$_SESSION['username'] = $USERS;
-	  	$home_url = '../afks/Main';
-		header('Location:'.$home_url);  	
+		
+		//Register Successfully !
+		$this->set('todo','Register Successfully! <br/> You can log in with your account now~ <br/> Enjoying []~(￣▽￣)~* ~');
+		session_destroy();
 	}
 	
 	function forgotpassword(){
@@ -133,7 +133,6 @@ class UsersController extends Controller {
 	}
 	
 	function view($id = null,$name = null) {
-	
 		$this->set('title',$name.' - My Todo List App');
 		$this->set('todo',$this->Item->select($id));
 
