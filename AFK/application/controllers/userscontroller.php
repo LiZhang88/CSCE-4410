@@ -127,9 +127,10 @@ class UsersController extends Controller {
 		
 		$this->User->query($strSQL);
 		$_SESSION['username'] = $USERS;
-	  	$home_url = '../afks/Main';
-		header('Location:'.$home_url);
-		$this->set('todo','The username has been registered!');  
+
+		//update password Successfully !
+		$this->set('todo','Update Successfully! <br/> You can log in with your new password now~ <br/> Enjoying []~(￣▽￣)~* ~');
+		session_destroy();		
 	}
 	
 	function view($id = null,$name = null) {

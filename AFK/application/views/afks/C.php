@@ -68,7 +68,7 @@
 		( http://localhost/afk/afks/index ) <br>
 		6. Have Fun :D <br><br>
 		
-		Online Version Available ~&nbsp;&nbsp; http://66.175.223.240:8080/afks/index
+		<a href=" http://66.175.223.240:8080/afks/index" target="_blank" >Online Version Available ~ </a>&nbsp;&nbsp; http://66.175.223.240:8080/afks/index
 	</p>
 	</div>
 	
