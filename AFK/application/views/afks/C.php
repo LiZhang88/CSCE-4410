@@ -39,14 +39,40 @@
    <li><a href='../afks/B'>About</a></li>
 </ul>
 </div>
-    
+
+	<div id="ReadMe1">
+	<h1>Jingqi's ReadMe </h1>
+	<p>	<br><br><br>
+		I used XAMPP. <br>
+		It is installed in my drive C. <br>
+		MyphpAdmin Account: <br>
+		username: root <br>
+		password: CS4410
+	</p>
+	</div>
+	
+	<div id="ReadME2">
+	<h2>Steps: </h2>
+	<p> 1. Put AFK file to direction <br>
+&nbsp;&nbsp;→ XAMPP → htdocs <br>
+		2. Open XAMPP Control Panel <br>
+&nbsp;&nbsp;-  Start Apache <br>
+&nbsp;&nbsp;-  Start MySQL <br>
+		3. Open localhost/phpmyadmin <br>
+&nbsp;&nbsp;-  Import the database file afk.sql <br>
+		( Direction: AFK → database → afk.sql ) <br>
+		4. Once import successful! <br>
+&nbsp;&nbsp;-  Go to the next step <br>
+		5. Open the browser ( I used Google Chrome ) <br>
+&nbsp;&nbsp;-  type the Homepage address <br>
+		( http://localhost/afk/afks/index ) <br>
+		6. Have Fun :D <br><br>
+		
+		Online Version Available ~&nbsp;&nbsp; http://66.175.223.240:8080/afks/index
+	</p>
+	</div>
+	
   </body>
 </html>
 
-<?php
-		echo "<img src='http://bbsimg.pcpop.com/UpLoadImages/2010/8/4/0x0/c2b89140-07ea-43e7-bea7-58283cb17a0b.gif'/>";	
-		echo "<div id='Team'>";
-		echo "<h1> Setting </h1>";
-		echo "</div>";
 
-?>

@@ -40,13 +40,44 @@
 </ul>
 </div>
     
+	<div id="CompleteTasks1">
+	<h1>Complete Tasks </h1>
+	<p>	<br>
+		Skill used: <br>
+		PHP <br>
+		HTML <br>
+		CSS <br>
+		JavaScript <br>
+		SQL <br>
+		ETC... <br>
+	</p>
+	</div>
+	
+	<div id="CompleteTasks2">
+	<p> 1. Drop-down Menu<br>
+&nbsp;&nbsp;-  Visitor & User <br>
+		2. Registration <br>
+&nbsp;&nbsp;-  Database <br>
+&nbsp;&nbsp;-  Check information if meet requirement <br>
+&nbsp;&nbsp;-  Verification Code<br>
+		( Random generate numbers, display as img, click to re-generate ) <br>
+		3. Update your password <br>
+&nbsp;&nbsp;-  By secure questions <br>
+		4. User log in <br>
+&nbsp;&nbsp;-  Using the account that you registered <br>
+		5. Display the Error & Correct Messages + Checking<br> &nbsp;&nbsp;&nbsp; system <br>
+&nbsp;&nbsp;-  Registration & Log in <br>
+		6. Different visual effect & Log in/out state <br>
+&nbsp;&nbsp;-  Visitor & User <br>
+		7. Redirect page <br>
+&nbsp;&nbsp;-  Gif img <br>
+&nbsp;&nbsp;-  Ten seconds count down (display) <br>
+		8. Something Else ~ <br>
+&nbsp;&nbsp;-  XD~~		
+	</p>
+	</div>	
+	
   </body>
 </html>
 
-<?php
-		echo "<img src='http://bbsimg.pcpop.com/UpLoadImages/2010/8/4/0x0/c2b89140-07ea-43e7-bea7-58283cb17a0b.gif'/>";	
-		echo "<div id='Team'>";
-		echo "<h1> Class: Tasks </h1>";
-		echo "</div>";
 
-?>

@@ -42,7 +42,7 @@
 </html>
 
 <?php		
-		echo "<h1>Home Page! </h1>";
+		echo "<h1>Sweet Home! </h1>";
 		
 		echo "<img src='http://www.hdwallshub.com/files/submissions/One_piece_ace_hd_wallpaper_1891642713.jpg'/>";	
 ?>

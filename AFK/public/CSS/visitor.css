@@ -391,4 +391,82 @@ body {font:12px arial,helvetica,clean,sans-serif; margin:0px auto; position:rela
   }
 }
 
+#ReadMe1 h1 {
+	text-align:center;
+	font-family:verdana;
+	width:100%;
+}
 
+#ReadMe1 p {
+	float:left;
+	margin-left:10%;
+	width:300px;
+	height:30%;
+	border:solid;
+	border-color:yellow;
+	font-family:times;
+	font-size:18px;
+}
+
+#ReadMe2 h2 {
+	float:left;	
+	margin-left:10%;
+	width:300px;
+	height:5%;
+	border:solid ;
+	border-color:red;
+	font-family:verdana;
+}
+
+#ReadMe2 p {
+	float:right;
+	width:30%;
+	height:50%;
+	border:solid ;
+	border-color:red;
+	margin-right:30%;
+	text-align:left;
+	font-family:times;
+	font-weight:bold;
+	font-size:18px;
+}
+
+#CompleteTasks1 h1 {
+	text-align:center;
+	font-family:verdana;
+	width:100%;
+}
+
+#CompleteTasks1 p {
+	float:left;
+	margin-left:10%;
+	width:300px;
+	height:30%;
+	border:solid;
+	border-color:green;
+	font-family:times;
+	font-size:18px;
+}
+
+#CompleteTasks2 h2 {
+	float:left;	
+	margin-left:10%;
+	width:300px;
+	height:5%;
+	border:solid ;
+	border-color:blue;
+	font-family:verdana;
+}
+
+#CompleteTasks2 p {
+	float:right;
+	width:30%;
+	height:65%;
+	border:solid ;
+	border-color:blue;
+	margin-right:30%;
+	text-align:left;
+	font-family:times;
+	font-weight:bold;
+	font-size:18px;
+}
