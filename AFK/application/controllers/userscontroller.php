@@ -129,7 +129,7 @@ class UsersController extends Controller {
 		$_SESSION['username'] = $USERS;
 
 		//update password Successfully !
-		$this->set('todo','Update Successfully! <br/> You can log in with your new password now~ <br/> Enjoying []~(￣▽￣)~* ~');
+		//$this->set('todo','Update Successfully! <br> You can log in with your new password now~ <br> Enjoying []~(￣▽￣)~* ~');
 		session_destroy();		
 	}
 	
