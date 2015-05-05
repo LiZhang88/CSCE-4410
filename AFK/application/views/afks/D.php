@@ -1,6 +1,8 @@
 <?php
-/* Home page */
- // Navigation Bar
+/* 
+ Complete tasks
+ Jingqi Hu
+ */
 ?>
  
 <html>
@@ -41,8 +43,10 @@
   </body>
 </html>
 
-<?php		
-		echo "<h1>Home Page! </h1>";
-		
-		echo "<img src='http://www.hdwallshub.com/files/submissions/One_piece_ace_hd_wallpaper_1891642713.jpg'/>";	
+<?php
+		echo "<img src='http://bbsimg.pcpop.com/UpLoadImages/2010/8/4/0x0/c2b89140-07ea-43e7-bea7-58283cb17a0b.gif'/>";	
+		echo "<div id='Team'>";
+		echo "<h1> Class: Tasks </h1>";
+		echo "</div>";
+
 ?>

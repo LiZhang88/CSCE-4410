@@ -47,7 +47,7 @@ if ( 0 == $isLogined)
 		echo '</div></ul>';
 	}
 	else {
-		$url = "http://localhost/afk/users/usershome"; 
+		$url = "../users/usershome"; 
 	}	
 ?>   
 

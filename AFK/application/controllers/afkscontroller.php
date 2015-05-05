@@ -81,4 +81,21 @@ class AfksController extends Controller {
 		$this->set('cssfile','visitor.css');
 	}
 	
+	function D(){
+		session_start();
+		$this->set('title','Welcome to AFK!');
+		$this->set('cssfile','visitor.css');
+	}
+
+	function E(){
+		session_start();
+		$this->set('title','Welcome to AFK!');
+		$this->set('cssfile','visitor.css');
+	}
+	
+	function F(){
+		session_start();
+		$this->set('title','Welcome to AFK!');
+		$this->set('cssfile','visitor.css');
+	}	
 }

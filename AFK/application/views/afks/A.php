@@ -21,8 +21,8 @@
       <ul>
          <li class='has-sub'><a href='#'>Jinqqi Hu </a>
             <ul>
-               <li><a href='#'>ReadMe</a></li>
-               <li><a href='#'>Complete tasks</a></li>
+               <li><a href='../afks/C'>ReadMe</a></li>
+               <li><a href='../afks/D'>Complete tasks</a></li>
             </ul>
          </li>
          <li class='has-sub'><a href='#'>Zhang Li </a>
