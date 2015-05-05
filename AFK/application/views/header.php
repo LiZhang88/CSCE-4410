@@ -33,7 +33,8 @@ if (isset($_SESSION["isLogined"])) {
 	echo '<div id="Top" class="box">';
 	echo  "<h1>$title</h1>"; 
   // User logout
-	echo ' <p> <a href="../users/logout">Log out</a> /（ Hello, <b> '.$_SESSION['username'].'</b> ）';
+   
+	echo ' <p> <a href="../users/logout">Log out</a> /（ Hello, <b> '.$_SESSION['username'].'</b> ) / <a href="../users/usershome"> Back </a> </p>';
 	echo '</div>';
   }	
 ?>
